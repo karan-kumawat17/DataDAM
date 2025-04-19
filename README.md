@@ -29,6 +29,7 @@ Train
 ```!python /DataDAM/main_DataDAM.py --dataset CIFAR100 --model ConvNet --ipc 10 --dsa_strategy color_crop_cutout_flip_scale_rotate --zca True --data_path /DataDAM/ --save_path /path/to/save ```
 
 Test
+#### Note: Before testing, download the models from the hugggingface page mentioned below on README.
 
 ```!python /DataDAM/distill_test_model.py --dataset CIFAR100 --model ConvNet --ipc 10 --dsa_strategy color_crop_cutout_flip_scale_rotate --zca True --data_path /DataDAM/ --save_path /path/to/save```
 
