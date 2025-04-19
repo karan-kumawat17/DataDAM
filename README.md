@@ -21,6 +21,11 @@ This folder contains all neccesary code files and supplemental material for the 
 ```
 
 
+## How to Run
+We used the same dataset i.e. CIFAR100 
+```!python /kaggle/working/DataDAM/main_DataDAM.py --dataset CIFAR100 --model ConvNet --ipc 10 --dsa_strategy color_crop_cutout_flip_scale_rotate --zca True --data_path /DataDAM/ --save_path /path/to/save ```
+
+
 
 ## HyperParameter Table
 For reproducibility, we outline our associated hyperparameters below:
